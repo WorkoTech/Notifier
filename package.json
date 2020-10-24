@@ -1,0 +1,20 @@
+{
+  "name": "@worko/notifier",
+  "version": "0.0.0",
+  "description": "Allow other microservices to send notifications to clients through websockets",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "dev": "npx nodemon ./src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Jules Bourdalé <jules.bourdale@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.3.0"
+  }
+}
